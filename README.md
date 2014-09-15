@@ -1,6 +1,6 @@
-## DCD-HEADER-MANIPUTLATION
+# DCD-HEADER-MANIPUTLATION
 
-### Why?
+## Why?
 
 If you've run a MD simulation on a machine of opposite endianness to 
 your local analysis machine (e.g. on the VLSCI BlueGene machine AVOCA 
@@ -72,7 +72,7 @@ the directory as an example of a full conversion process.
 4. Reloading the header information with loaddcd.
 
 
---Header Field Details (Line# Field)--
+### Header Field Details (Line# Field)
 
 1. Number of frames in this file
 2. Number of previous integration steps
