@@ -38,7 +38,7 @@ In this directory are the uncompiled dumpdcd.c and loaddcd.c
 files. along with the require library, largefiles.h. To compile 
 dumpdcd and loaddcd on your system run these commands:
 
-```shell
+```bash
    gcc dumpdcd.c -o dumpdcd
 
    gcc loaddcd.c -o loaddcd
@@ -52,14 +52,14 @@ when you compile the two binaries, in particular `largefiles.h`.
 The output plain text file from dumpdcd will contain the header 
 information (see the format below). 
 
-```shell
+```bash
    /path/to/executable/dumpdcd <filename> > <data>
 ```
 
 Once you've changed the details on the text file it can be inserted 
 back into the trajectory file with loaddcd
 
-```shell
+```bash
    /path/to/executable/loaddcd <filename> < <data>
 ```
 
