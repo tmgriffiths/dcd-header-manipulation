@@ -39,9 +39,9 @@ files. along with the require library, largefiles.h. To compile
 dumpdcd and loaddcd on your system run these commands:
 
 ```shell
-    gcc dumpdcd.c -o dumpdcd
+   gcc dumpdcd.c -o dumpdcd
 
-    gcc loaddcd.c -o loaddcd
+   gcc loaddcd.c -o loaddcd
 ```    
 
 This should make the binary executable for both, which you can now 
@@ -53,14 +53,14 @@ The output plain text file from dumpdcd will contain the header
 information (see the format below). 
 
 ```shell
-/path/to/executable/dumpdcd <filename> > <data>
+   /path/to/executable/dumpdcd <filename> > <data>
 ```
 
 Once you've changed the details on the text file it can be inserted 
 back into the trajectory file with loaddcd
 
 ```shell
-/path/to/executable/loaddcd <filename> < <data>
+   /path/to/executable/loaddcd <filename> < <data>
 ```
 
 There is a c-shell script (`big-little-and-headfix.csh`) included in 
