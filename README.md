@@ -79,6 +79,8 @@ the directory as an example of a full conversion process.
 3. Frequency (integration steps) for saving of frames
 4. Number of integration steps in the run that created this file
 5. Frequency of coordinate saving (if this is a velocity trajectory??)
+6. 
+7. 
 8. Number of degrees of freedom during the run
 9. Number of fixed atoms
 10. Timestep in AKMA-units. Bit-copy from the 32-bit real number
@@ -86,6 +88,11 @@ the directory as an example of a full conversion process.
 12. 1 if this is a 4D trajectory
 13. 1 if fluctuating charges are present
 14. 1 if trajectory is the result of merge without consistency checks
+15.
+16.
+17.
+18.
+19.
 20. CHARMM version number
 
 Lines 11 -- 14 are either a 0 or 1 value indicating that the property
